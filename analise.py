@@ -13,4 +13,4 @@ print(faturamento_por_loja)
 faturamento_por_produto = tabela[["ID Loja", "Produto" ,"Valor Final"]].groupby(["ID Loja", "Produto"]).sum()
 print(faturamento_por_produto)
 
-print("A loja em Iguatemi Campinas ")
+print("A loja em Iguatemi Campinas por conta das bermudas lisas, aumente a disponibilidade das bermudas para aumentar o faturamento ")
